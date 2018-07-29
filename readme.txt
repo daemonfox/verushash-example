@@ -1,13 +1,13 @@
 [2018-06-20 06:23:08] JSON protocol request:
 {"method": "getblocktemplate", "params": [{"capabilities": ["coinbasetxn", "coinbasevalue", "longpoll", "workid"]}], "id":0}
 
-* Rebuilt URL to: http://127.0.0.1:27486/
-* Found bundle for host 127.0.0.1: 0x7f6a3c013de0 [can pipeline]
-* Re-using existing connection! (#0) with host 127.0.0.1
-* Connected to 127.0.0.1 (127.0.0.1) port 27486 (#0)
+* Rebuilt URL to: http://192.168.1.109:27486/
+* Found bundle for host 192.168.1.109: 0x7f6a3c013de0 [can pipeline]
+* Re-using existing connection! (#0) with host 192.168.1.109
+* Connected to 192.168.1.109 (192.168.1.109) port 27486 (#0)
 * Server auth using Basic with user 'user227633120'
 > POST / HTTP/1.1
-Host: 127.0.0.1:27486
+Host: 192.168.1.109:27486
 Authorization: < hidden >
 Accept: */*
 Accept-Encoding: deflate, gzip
@@ -23,7 +23,7 @@ Expect: 100-continue
 < Date: Wed, 20 Jun 2018 03:23:08 GMT
 < Content-Length: 986
 < 
-* Connection #0 to host 127.0.0.1 left intact
+* Connection #0 to host 192.168.1.109 left intact
 [2018-06-20 06:23:08] JSON protocol response:
 {
    "id": 0,
@@ -66,13 +66,13 @@ Expect: 100-continue
 {"method": "getmininginfo", "params": [], "id":8}
 
 
-* Rebuilt URL to: http://127.0.0.1:27486/
-* Found bundle for host 127.0.0.1: 0x7f6a3c013de0 [can pipeline]
-* Re-using existing connection! (#0) with host 127.0.0.1
-* Connected to 127.0.0.1 (127.0.0.1) port 27486 (#0)
+* Rebuilt URL to: http://192.168.1.109:27486/
+* Found bundle for host 192.168.1.109: 0x7f6a3c013de0 [can pipeline]
+* Re-using existing connection! (#0) with host 192.168.1.109
+* Connected to 192.168.1.109 (192.168.1.109) port 27486 (#0)
 * Server auth using Basic with user 'user227633120'
 > POST / HTTP/1.1
-Host: 127.0.0.1:27486
+Host: 192.168.1.109:27486
 Authorization: < hidden >
 Accept: */*
 Accept-Encoding: deflate, gzip
@@ -88,7 +88,7 @@ Expect: 100-continue
 < Date: Wed, 20 Jun 2018 03:23:08 GMT
 < Content-Length: 255
 < 
-* Connection #0 to host 127.0.0.1 left intact
+* Connection #0 to host 192.168.1.109 left intact
 [2018-06-20 06:23:08] JSON protocol response:
 {
    "id": 8,
