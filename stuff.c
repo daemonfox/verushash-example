@@ -17,7 +17,7 @@ void gcurl_init() {
     //headers = curl_slist_append(headers, "Host: 127.0.0.1");
     //headers = curl_slist_append(headers, "User-Agent: assetchain-switcher");
 
-    //host = curl_slist_append(NULL, "localhost:7771:127.0.0.1");
+    host = curl_slist_append(NULL, "192.168.1.109:27486:192.168.1.109");
     //host = curl_slist_append(NULL, "127.0.0.1:7771:127.0.0.1");
 
     //CURLM *m = curl_multi_init();
