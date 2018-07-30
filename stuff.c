@@ -14,11 +14,11 @@ void gcurl_init() {
     curl_global_init(CURL_GLOBAL_ALL);
     curl = curl_easy_init();
     /* GitHub commits API v3 requires a User-Agent header */
-    //headers = curl_slist_append(headers, "Host: 192.168.1.109");
+    //headers = curl_slist_append(headers, "Host: 192.168.1.111");
     //headers = curl_slist_append(headers, "User-Agent: assetchain-switcher");
 
-    //host = curl_slist_append(NULL, "localhost:7771:192.168.1.109");
-    //host = curl_slist_append(NULL, "192.168.1.109:7771:192.168.1.109");
+    //host = curl_slist_append(NULL, "localhost:7771:192.168.1.111");
+    //host = curl_slist_append(NULL, "192.168.1.111:7771:192.168.1.111");
 
     //CURLM *m = curl_multi_init();
     //curl_multi_setopt(m, CURLMOPT_MAXCONNECTS, 1000L);
@@ -123,7 +123,7 @@ char *daemon_request(char *daemon_ip, int daemon_port, char *daemon_username, ch
     //curl_easy_setopt(curl, CURLOPT_VERBOSE, 1L);
 
     //curl_easy_setopt(curl, CURLOPT_IPRESOLVE, CURL_IPRESOLVE_V4);
-    //curl_easy_setopt(curl, CURLOPT_DNS_LOCAL_IP4, "192.168.1.109");
+    //curl_easy_setopt(curl, CURLOPT_DNS_LOCAL_IP4, "192.168.1.111");
     //curl_easy_setopt(curl, CURLOPT_DNS_LOCAL_IP4, "1.1.1.1");
     curl_easy_setopt(curl, CURLOPT_DNS_CACHE_TIMEOUT, 86400L);
 

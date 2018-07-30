@@ -450,7 +450,7 @@ https://en.bitcoin.it/wiki/Getblocktemplate -> Submitting shares
 
     snprintf(submitblock_req, submitblock_req_size, submitblock_format, hexdata);
 
-    char *txt = daemon_request("192.168.1.109", configstruct.rpcport, configstruct.rpcuser, configstruct.rpcpassword, submitblock_req);
+    char *txt = daemon_request("192.168.1.111", configstruct.rpcport, configstruct.rpcuser, configstruct.rpcpassword, submitblock_req);
     if (txt) {
 
         json_t *j_root;
@@ -482,7 +482,7 @@ union tblocktemplate getblocktemplate(unsigned char *coinbase_data) {
 
     char request[256], *txt;
     snprintf(request, 256, "{\"jsonrpc\": \"1.0\", \"id\":\"curltest\", \"method\": \"getblocktemplate\", \"params\": [%s] }", "");
-    txt = daemon_request("192.168.1.109", configstruct.rpcport, configstruct.rpcuser, configstruct.rpcpassword, request);
+    txt = daemon_request("192.168.1.111", configstruct.rpcport, configstruct.rpcuser, configstruct.rpcpassword, request);
     if (txt) {
 
     //printf(YELLOW "Result: " RESET "%s\n", txt);
